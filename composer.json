@@ -1,0 +1,34 @@
+{
+  "name": "easy-api",
+  "description": "easy-api",
+  "type": "project",
+  "authors": [{"name":"Eric.Chen","email": "275043398@qq.com"}],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-swoole": ">=4.0.3",
+    "easyswoole/easyswoole": "^3",
+    "easyswoole/cache": "*",
+    "easyswoole/socket": "^1.1",
+    "easyswoole/smtp": "*",
+    "easyswoole/rpc": "*",
+    "easyswoole/component": "*",
+    "easyswoole/curl": "^1.0",
+    "firebase/php-jwt": "^5.0",
+    "intervention/image": "^2.4",
+    "overtrue/easy-sms": "^0.0.9",
+    "hashids/hashids": "^2.0",
+    "ext-json": "*",
+    "ext-redis": "*",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.6",
+    "easyswoole/swoole-ide-helper": "^1.0",
+    "easyswoole/easy-whoops": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

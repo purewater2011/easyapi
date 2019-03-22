@@ -1,0 +1,18 @@
+# ide
+/.idea/
+/.DS_Store
+/.svn/
+
+# composer
+/vendor
+composer.lock
+
+# easySwoole
+easyswoole
+easyswoole.install
+src/swoole_log.txt
+
+#easyapi
+dev.php
+produce.php
+naer.php
